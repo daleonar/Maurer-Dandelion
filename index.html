@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+  <button onclick="startStop()" id="s/s">Stop</button>
+  <button onclick="swap()">Reverse</button>
+  <button onclick="slow()">Slow Down</button>
+  <button onclick="fast()">Speed Up</button>
+  <button onclick="step()">Step</button>
+  <button onclick="showG()" id="graphToggle">Graph OFF</button> 
+  <button onclick="showP()" id="pathToggle">Rose Curve ON</button>  
+  <br>
+  <input type="number" id="nset" class="input">
+  <button onclick="nset()">n Set</button>
+  <button onclick="nStartStop()" id="ns/s">n Stop</button>
+  <button onclick="nslow()">n Slow Down</button>
+  <button onclick="nfast()">n Speed Up</button>
+  <button onclick="nInverse()">n Inverse</button>
+  <br>
+  <input type="number" id="dset" class="input">
+  <button onclick="dset()">d Set</button>
+  <button onclick="dStartStop()" id="ds/s">d Stop</button>
+  <button onclick="dslow()">d Slow Down</button>
+  <button onclick="dfast()">d Speed Up</button>
+  <button onclick="dInverse()">d Inverse</button>
+</body>
+
+</html>
